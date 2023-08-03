@@ -1,0 +1,14 @@
+{
+    "users": {
+      "id": "INTEGER PRIMARY KEY",
+      "name": "TEXT",
+      "email": "TEXT"
+    },
+    "posts": {
+      "id": "INTEGER PRIMARY KEY",
+      "title": "TEXT",
+      "content": "TEXT",
+      "user_id": "INTEGER"
+    }
+  }
+  
